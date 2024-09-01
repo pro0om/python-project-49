@@ -1,5 +1,7 @@
-# numbers for random
-MIN_NUMBER = 0
+# How many rounds
+MAX_ROUND = 5
+# Numbers for random
+MIN_NUMBER = 1
 MAX_NUMBER = 10
-# instruction
-EVEN_INSTRUCTION = ' If you think that number will be even, write - "yes". If not, write - "no"'
+# Game instructions
+EVEN_INSTRUCTION = 'If you think that number will be even, write - "yes". If not, write - "no"'
