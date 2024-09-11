@@ -4,20 +4,19 @@ from brain_games.core import run_game
 
 
 def get_result_by_common_divisor(number1, number2):
-    if number1 == number2:
-        answer = abs(number1)
-        return answer
-
-    # divisors1 = []
-    # divisors2 = []
-    # for i in range(number1 + 1):
-    #     if number1 % i == 0:
-    #         divisors1 += [i]
-    # for i in range(number2 + 1):
-    #     if number2 % i == 0:
-    #         divisors2 += [i]
-    #
-    # return divisors2
+    if number1 > number2:
+        max_divisor = number2
+        second_num = number1
+    else:
+        max_divisor = number1
+        second_num = number2
+    comparison_num = max_divisor
+    while max_divisor > 0:
+        if second_num % max_divisor == 0:
+            answer = max_divisor
+            if comparison_num % answer == 0:
+                return answer
+        max_divisor -= 1
 
 
 def get_numbers_and_answer():
