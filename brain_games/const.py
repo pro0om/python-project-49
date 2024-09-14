@@ -1,8 +1,12 @@
 # How many rounds
 MAX_ROUND = 5
+# How many numbers in string
+STRING_SIZE = 6
+# Size for step
+STEP_SIZE = 5
 # Numbers for random
-MIN_NUMBER = 10
-MAX_NUMBER = 50
+MIN_NUMBER = 1
+MAX_NUMBER = 10
 # Operations
 MATH_OPERATIONS = ('+', '*', '-')
 # Game instructions
