@@ -15,7 +15,7 @@ def run_game(get_question_and_answer, game_instruction):
         user_answer = prompt.string('Your answer:  ')
 
         if user_answer.capitalize() == answer:
-            print('Nice it is true\n\n')
+            print('Nice, it is true\n\n')
         else:
             print(f"\n{name}, it's wrong. Right answer is <<< {answer} >>>."
                   f" Don't worry, next time you'll win")
