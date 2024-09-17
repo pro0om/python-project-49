@@ -16,7 +16,6 @@ Brain Prime:
 Brain Progression:
 [![asciicast](https://asciinema.org/a/sGA6WVqHhAKyqf1HerYKUYJMc.svg)](https://asciinema.org/a/sGA6WVqHhAKyqf1HerYKUYJMc)
 
-Using: 
 
 python = "^3.12"
 
