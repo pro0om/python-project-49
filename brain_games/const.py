@@ -1,9 +1,9 @@
 # How many rounds
-MAX_ROUND = 5
+MAX_ROUND = 3
 # How many numbers in string
 STRING_SIZE = 6
 # Size for step
-STEP_SIZE = 5
+MAX_STEP_SIZE = 3
 # Numbers for random
 MIN_NUMBER = 1
 MAX_NUMBER = 10
