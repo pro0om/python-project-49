@@ -14,7 +14,7 @@ Brain Gcd:
 Brain Prime:
 [![asciicast](https://asciinema.org/a/3nlneCbHnOPvmIn0Oy2rZJkTi.svg)](https://asciinema.org/a/3nlneCbHnOPvmIn0Oy2rZJkTi)
 Brain Progression:
-<script src="https://asciinema.org/a/sGA6WVqHhAKyqf1HerYKUYJMc.js" id="asciicast-sGA6WVqHhAKyqf1HerYKUYJMc" async="true"></script>
+<a href="https://asciinema.org/a/sGA6WVqHhAKyqf1HerYKUYJMc" target="_blank"><img src="https://asciinema.org/a/sGA6WVqHhAKyqf1HerYKUYJMc.svg" /></a>
 
 python = "^3.12"
 
