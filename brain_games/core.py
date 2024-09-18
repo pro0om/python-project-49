@@ -11,7 +11,7 @@ def run_game(get_question_and_answer, game_instruction):
           f"If you wanna win, your answer should be right {MAX_ROUND} times\n")
     for _ in range(MAX_ROUND):
         question, answer = get_question_and_answer()
-        print(f'Question:{question}')
+        print(f'Question: {question}')
         user_answer = prompt.string('Your answer:  ')
 
         if user_answer.capitalize() == answer:
