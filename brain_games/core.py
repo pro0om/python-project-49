@@ -17,7 +17,8 @@ def run_game(get_question_and_answer, game_instruction):
         if user_answer.capitalize() == answer:
             print('Correct!\n\n')
         else:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{answer}'. "
+            print(f"'{user_answer}' is wrong answer ;(. Correct answer was "
+                  f"'{answer}'. "
                   f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
