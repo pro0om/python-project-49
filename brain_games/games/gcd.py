@@ -21,7 +21,7 @@ def get_result_by_common_divisor(number1, number2):
 
 def get_numbers_and_answer():
     number1, number2 = get_random_num(), get_random_num()
-    numbers = f" {number1} {number2}"
+    numbers = f"{number1} {number2}"
     result = get_result_by_common_divisor(number1, number2)
     return numbers, str(result)
 
