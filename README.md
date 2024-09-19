@@ -16,3 +16,8 @@ Brain prime:
 Brain progression:
 [![asciicast](https://asciinema.org/a/u2jucK35Gu48D5DNtAhbnUpad.svg)](https://asciinema.org/a/u2jucK35Gu48D5DNtAhbnUpad)
 
+# Was used:
+1. python = "^3.10.12"
+2. prompt = "^0.4.1"
+3. flake8 = "^7.1.1"   
+
