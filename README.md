@@ -3,6 +3,18 @@
 <a href="https://codeclimate.com/github/pro0om/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/9469653930e0f11ad3b1/maintainability" /></a>
 <a href="https://codeclimate.com/github/pro0om/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/9469653930e0f11ad3b1/test_coverage" /></a>
 
+# How to start:
+    You should choose one. Write in console name of the game what you want to play.
+    Push Enter and try to win. Good luck. 
+
+1. brain-even
+2. brain-calc
+3. brain-gcd
+4. brain-prime
+5. brain-progression
+
+   
+
 * # Examples:
 
 Brain even:
