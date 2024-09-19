@@ -4,6 +4,8 @@ MAX_ROUND = 3
 STRING_SIZE = 6
 # Size for step
 MAX_STEP_SIZE = 3
+# One slot in string for number what we should to find
+HIDDEN_NUMBER = 1
 # Numbers for random
 MIN_NUMBER = 1
 MAX_NUMBER = 10
