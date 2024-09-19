@@ -1,12 +1,12 @@
 from brain_games.const import (PROGRESSION_INSTRUCTION, STRING_SIZE,
-                               MAX_STEP_SIZE)
+                               MAX_STEP_SIZE, HIDDEN_NUMBER)
 from brain_games.utility import get_random_num
 from brain_games.core import run_game
 
 
 def get_numbers_string(num):
-    left_size = get_random_num(1, STRING_SIZE - 1)
-    right_size = STRING_SIZE - 1 - left_size
+    left_size = get_random_num(1, STRING_SIZE - HIDDEN_NUMBER)
+    right_size = STRING_SIZE - HIDDEN_NUMBER - left_size
     random_step = get_random_num(1, MAX_STEP_SIZE)
     right_list, left_list = [], []
     start_point1, start_point2 = num, num
