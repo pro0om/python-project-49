@@ -3,6 +3,7 @@ name = "hexlet-code"
 version = "0.1.0"
 description = "First Project"
 authors = ["Pavel Hartsuk <phartsuk@gmail.com>"]
+repository = 'https://github.com/pro0om/python-project-49'
 readme = "README.md"
 packages = [
   { include = "brain_games" },
